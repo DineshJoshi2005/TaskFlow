@@ -6,6 +6,14 @@ Built with **React (JavaScript)** on the frontend, **Node.js (Express)** followi
 
 ---
 
+## 🌐 Live Deployment Links
+
+- 🚀 **Live Frontend Application (Vercel)**: [https://task-flow-cyan-omega.vercel.app/](https://task-flow-cyan-omega.vercel.app/)
+- ⚙️ **Live Backend API (Render)**: [https://taskflow-pwun.onrender.com](https://taskflow-pwun.onrender.com)
+- 🩺 **API Health Check**: [https://taskflow-pwun.onrender.com/api/health](https://taskflow-pwun.onrender.com/api/health)
+
+---
+
 ## 🚀 Features
 
 - 📋 **Kanban Board View**: View boards with categorized columns (*To Do*, *In Progress*, *Done*).

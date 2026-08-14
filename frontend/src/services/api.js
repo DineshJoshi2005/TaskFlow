@@ -1,4 +1,5 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || (typeof window !== 'undefined' && window.location.hostname === 'localhost' ? 'http://localhost:5000/api' : 'https://taskflow-pwun.onrender.com/api');
+
 
 async function handleResponse(response) {
   const isJson = response.headers.get('content-type')?.includes('application/json');
