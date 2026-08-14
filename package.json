@@ -1,0 +1,25 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "A lightweight full-stack task board application for small teams",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "server": "npm --prefix backend run dev",
+    "client": "npm --prefix frontend run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "npm --prefix backend test"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "keywords": [
+    "taskflow",
+    "kanban",
+    "trello",
+    "react",
+    "express",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
